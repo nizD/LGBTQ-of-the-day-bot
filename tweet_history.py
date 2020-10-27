@@ -4,10 +4,10 @@ tweet_history.py: use tweet_historical_events.py to tweet event on day in histor
 Linh Nguyen (@BobbyWin16)
 '''
 
-from datetime import date
+
 from tweet import authenticate_api
 from words_dir.tweet_historical_events import events
-
+from datetime import date
 import random
 
 
